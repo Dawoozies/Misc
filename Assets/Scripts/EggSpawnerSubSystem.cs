@@ -32,10 +32,10 @@ namespace Main
             public float elapsedTime;
             public void Execute(ref EggSpawner eggSpawner, [ChunkIndexInQuery] int chunkIndexInQuery, WorldTransform transform)
             {
-                if(elapsedTime > eggSpawner.spawnNextTime)
+                while(elapsedTime > eggSpawner.spawnNextTime)
                 {
                     icb.Add(eggPrefab, transform, chunkIndexInQuery);
-                    eggSpawner.spawnNextTime = elapsedTime + eggSpawner.spawnTime;
+                    eggSpawner.spawnNextTime += eggSpawner.spawnTime;
                 }
             }
         }

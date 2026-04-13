@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.latios.latiosframework": {
-      "version": "file:Latios-framework",
+      "version": "file:Latios-Framework",
       "depth": 0,
       "source": "embedded",
       "dependencies": {

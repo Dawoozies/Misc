@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "com.latios.latiosframework": "https://github.com/Dreaming381/Latios-Framework.git",
-    "com.latios.latiosframework.addons": "https://github.com/Dreaming381/Latios-Framework-Add-Ons.git",
     "com.unity.ai.navigation": "2.0.5",
     "com.unity.collab-proxy": "2.12.4",
     "com.unity.ide.rider": "3.0.31",
